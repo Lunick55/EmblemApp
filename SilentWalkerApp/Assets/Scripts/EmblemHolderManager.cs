@@ -42,4 +42,9 @@ public class EmblemHolderManager : MonoBehaviour
 		imageAnim.Play("ImageFadeOut");
 		BGAnim.Play("FadeOut");
 	}
+
+	public void Quit()
+	{
+		Application.Quit();
+	}
 }
